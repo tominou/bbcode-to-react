@@ -1,6 +1,6 @@
 // https://github.com/vishnevskiy/bbcodejs/blob/master/src/coffee/tags.coffee
 import React from 'react';
-import Tag from '../tag';
+import Tag from '../tag.js';
 
 export default class ColorTag extends Tag {
 
