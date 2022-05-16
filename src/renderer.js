@@ -4,7 +4,7 @@ import {
   URL_RE,
   COSMETIC_DICT,
   COSMETIC_RE,
-} from './constants';
+} from './constants.js';
 
 export default class Renderer {
   constructor(options) {
