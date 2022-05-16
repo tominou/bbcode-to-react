@@ -1,6 +1,6 @@
 // https://github.com/vishnevskiy/bbcodejs/blob/master/src/coffee/tags.coffee
 import React from 'react';
-import { NEWLINE_RE, LINE_BREAK } from './constants';
+import { NEWLINE_RE, LINE_BREAK } from './constants.js';
 
 export default class Tag {
 
