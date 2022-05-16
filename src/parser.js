@@ -1,9 +1,9 @@
 // https://github.com/vishnevskiy/bbcodejs/blob/master/src/coffee/parser.coffee
 import React from 'react';
-import { SPACE_RE, TOKEN_RE, START_NEWLINE_RE } from './constants';
-import defaultTags from './tags';
-import Tag from './tag';
-import Renderer from './renderer';
+import { SPACE_RE, TOKEN_RE, START_NEWLINE_RE } from './constants.js';
+import defaultTags from './tags.js';
+import Tag from './tag.js';
+import Renderer from './renderer.js';
 
 export default class Parser {
   constructor(allowedTags = null) {
