@@ -1,16 +1,16 @@
-import Tag from '../tag';
-import CodeTag from './code';
-import ImageTag from './image';
-import HorizontalRuleTag from './hr';
-import SizeTag from './size';
-import CenterTag from './center';
-import RightTag from './right';
-import ColorTag from './color';
-import ListTag from './list';
-import ListItemTag from './item';
-import QuoteTag from './quote';
-import LinkTag from './link';
-import createSimpleTag from './simple';
+import Tag from '../tag.js';
+import CodeTag from './code.js';
+import ImageTag from './image.js';
+import HorizontalRuleTag from './hr.js';
+import SizeTag from './size.js';
+import CenterTag from './center.js';
+import RightTag from './right.js';
+import ColorTag from './color.js';
+import ListTag from './list.js';
+import ListItemTag from './item.js';
+import QuoteTag from './quote.js';
+import LinkTag from './link.js';
+import createSimpleTag from './simple.js';
 
 export default {
   b: createSimpleTag('strong'),
