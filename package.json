@@ -22,7 +22,7 @@
     "LICENSE",
     "README.md",
     "CHANGELOG.md",
-    "lib",
+    "src",
     "dist",
     "tonic-example.js"
   ],
