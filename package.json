@@ -2,7 +2,7 @@
   "name": "bbcode-to-react",
   "version": "0.3.0",
   "description": "A utility for turning raw BBCode into React elements. ",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "report-coverage": "coveralls < ./coverage/lcov.info",
     "test": "react-scripts test --env=jsdom",
