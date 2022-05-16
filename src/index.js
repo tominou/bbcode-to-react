@@ -1,5 +1,5 @@
-import Parser from './parser.js';
-import Tag from './tag.js';
+import Parser from './parser';
+import Tag from './tag';
 
 // export default new Parser();
 
